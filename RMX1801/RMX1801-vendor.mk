@@ -380,7 +380,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/etc/scve/facereco/gModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/scve/facereco/gModel.dat \
     vendor/realme/RMX1801/proprietary/vendor/etc/sensors/sensor_def_18321.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_18321.conf \
     vendor/realme/RMX1801/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/realme/RMX1801/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml \
     vendor/realme/RMX1801/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/realme/RMX1801/proprietary/vendor/firmware/a512_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b00 \
     vendor/realme/RMX1801/proprietary/vendor/firmware/a512_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b01 \
@@ -3270,4 +3269,5 @@ PRODUCT_PACKAGES += \
     uceShimService \
     dpmserviceapp \
     ims \
-    qcrilmsgtunnel
+    qcrilmsgtunnel \
+    vendor.qti.gnss@3.0-service
