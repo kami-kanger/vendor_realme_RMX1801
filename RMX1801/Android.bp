@@ -239,3 +239,10 @@ android_app_import {
 	privileged: true,
 	product_specific: true,
 }
+
+dex_import {
+	name: "WfdCommon",
+	owner: "realme",
+	jars: ["proprietary/framework/WfdCommon.jar"],
+}
+
